@@ -17,8 +17,8 @@ func main() {
 
 	wg.Wait()
 	fmt.Println()
-
 	fmt.Println("===================")
+	fmt.Println()
 
 	// GOROUTINE keduanya menampilkan secara rapih
 	var mtx sync.Mutex
